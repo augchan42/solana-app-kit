@@ -66,7 +66,7 @@ export interface MockDataConfig {
 
 /** Provide default auth config, reading from env or fallback. */
 export const DefaultAuthConfig: AuthProviderConfig = {
-  provider: 'privy', // or 'dynamic', 'turnkey', etc.
+  provider: 'dynamic', //'privy', // or 'dynamic', 'turnkey', etc.
   loginMethods: ['email', 'google', 'apple'],
 
   privy: {
